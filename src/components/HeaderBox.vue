@@ -1,50 +1,46 @@
 <template>
     <header>
-        <img :src="`/images/${content[0].image}`" alt="">
-        <div class="header-text">
-            <h1>{{content[0].title}}</h1>
-            <p>{{content[0].text}}</p>
-        </div>
-        <div class="select">
-            <div></div>
-            <div></div>
-            <div></div>
+        <header-content
+        :content="contentList[currentContent]"/>
+        <div class="select-box">
+            <div v-for="(el, index) in contentList" 
+            :key="index"
+            @click="setCurrentContent(index)"></div>
         </div>
     </header>
 </template>
 
 <script>
+import HeaderContent from './HeaderContent.vue'
 export default {
+    components: { 
+        HeaderContent 
+    },
     props:{
-        content:Array
+        contentList:Array
+    },
+    data(){
+        return{
+            currentContent:0
+        }
+    },
+    methods:{
+        setCurrentContent(n){
+            this.currentContent=n;
+        }
     }
     
 }
 </script>
+
 
 <style lang="scss" scoped>
 header{
     height: 100vh;
     width: 100%;
     position: relative;
-    img{
-        width: 100%;
-        height: 100%;
-        object-fit:cover;
-        position: absolute;
-        z-index: 0;
-    }
 
-    .header-text{
-        text-align: center;
-        z-index: 1;
-        position:absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%,-50%);
-    }
-
-    .select{
+    .select-box{
         z-index: 1;
         position:absolute;
         bottom:0;
