@@ -3,8 +3,8 @@
         <nav-box />
         <header-content
         :content="contentList[currentContent]"/>
-        <div class="register-button">Register Now</div>
-        <div class="select-box">
+        <div class="register-button center-x">Register Now</div>
+        <div class="select-box center-x">
             <div v-for="(el, index) in contentList" 
             :key="index"
             @click="setCurrentContent(index)"
@@ -47,23 +47,13 @@ header{
     height: 100vh;
     width: 100%;
     position: relative;
-
     .register-button{
-        z-index: 1;
-        position:absolute;
-        top: 60%;
-        left: 50%;
-        transform: translate(-50%,-50%);
-        margin-top: 120px;
+        bottom: 200px
     }
 
     .select-box{
-        z-index: 1;
-        position:absolute;
-        bottom:0;
-        left: 50%;
-        transform: translate(-50%, 0);
         display: flex;
+        bottom: 0;
         .dot{
             margin:0 12px;
             width: 30px;

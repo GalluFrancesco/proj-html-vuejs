@@ -1,7 +1,7 @@
 <template>
     <div>
         <img :src="`/images/${content.image}`" alt="">
-        <div class="header-text">
+        <div class="header-text center-x">
             <h1 class="white">{{content.title}}</h1>
             <p class="txt-base white">{{content.text}}</p>
         </div>
@@ -24,17 +24,14 @@ div{
         height: 100%;
         object-fit:cover;
         position: absolute;
-        z-index: 0;
+        z-index: -1;
         filter:brightness(0.7)
     }
 
     .header-text{
+        width: 70%;
+        bottom:300px;
         text-align: center;
-        z-index: 1;
-        position:absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%,-50%);
         h1{
             font-size: 80px;
         }
