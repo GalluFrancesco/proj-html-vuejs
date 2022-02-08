@@ -50,7 +50,7 @@ header{
     width: 100%;
     position: relative;
     .register-button{
-        bottom: 200px;
+        bottom: 150px;
         background-color: $main-blue;
         font-size: 12px;
         padding: 22px 40px;

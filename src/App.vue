@@ -1,16 +1,19 @@
 <template>
   <div id="app">
     <header-box :contentList="headerContent"/>
+    <main-box />
   </div>
 </template>
 
 <script>
 import HeaderBox from './components/HeaderBox.vue'
+import MainBox from './components/MainBox.vue'
 
 export default {
   name: 'App',
   components: {
-    HeaderBox
+    HeaderBox,
+    MainBox
   },
   data(){
     return{
@@ -25,13 +28,13 @@ export default {
           id:'HC02',
           image:'course-5-f-img.jpg',
           title:'Titolo 2',
-          text:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci officia voluptas consequuntur omnis! Numquam animi est necessitatibus accusantium cupiditate expedita voluptates tenetur, magnam ut, excepturi repudiandae, iusto eos qui provident?'
+          text:'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
         },
         {
           id:'HC03',
           image:'course-12-f-img.jpg',
           title:'Titolo 3',
-          text:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci officia voluptas consequuntur omnis! Numquam animi est necessitatibus accusantium cupiditate expedita voluptates tenetur, magnam ut, excepturi repudiandae, iusto eos qui provident?'
+          text:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci officia voluptas consequuntur omnis! Numquam animi est necessitatibus accusantium cupiditate expedita voluptates tenetur, magnam ut, excepturi repudiandae, iusto eos qui provident?  Adipisci officia voluptas consequuntur omnis! Numquam animi est necessitatibus accusantium cupiditate expedita voluptates tenetur, magnam ut, excepturi repudiandae, iusto eos qui provident?'
         }
       ]
     }

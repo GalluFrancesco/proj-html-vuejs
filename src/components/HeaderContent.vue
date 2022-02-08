@@ -30,13 +30,15 @@ div{
 
     .header-text{
         width: 70%;
-        bottom:300px;
+        bottom:250px;
         text-align: center;
         h1{
             font-size: 60px;
+            margin-bottom: 18px;
         }
         p{
             font-size: 18px;
+            line-height: 30px;
         }
     }
 
