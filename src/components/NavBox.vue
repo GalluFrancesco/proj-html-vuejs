@@ -40,7 +40,7 @@ nav{
     align-items: center;
     .logo-box{
         width: 300px;
-        padding: 24px;
+        padding-right: 24px;
         img{
             width: 100%;
         }
@@ -61,7 +61,7 @@ nav{
         width: 200px;
         color: white;
         font-size: 24px;
-        padding: 0 24px;
+        padding-left: 24px;
 
         .fa-shopping-bag{
             position: relative;

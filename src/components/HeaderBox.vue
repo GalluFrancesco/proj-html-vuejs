@@ -7,7 +7,11 @@
         <div class="select-box">
             <div v-for="(el, index) in contentList" 
             :key="index"
-            @click="setCurrentContent(index)"></div>
+            @click="setCurrentContent(index)"
+            class="dot"
+            :class="{'border' : currentContent===index}">
+            <div v-if="currentContent===index"></div>
+            </div>
         </div>
     </header>
 </template>
@@ -47,7 +51,7 @@ header{
     .register-button{
         z-index: 1;
         position:absolute;
-        top: 50%;
+        top: 60%;
         left: 50%;
         transform: translate(-50%,-50%);
         margin-top: 120px;
@@ -59,16 +63,24 @@ header{
         bottom:0;
         left: 50%;
         transform: translate(-50%, 0);
-        height: 40px;
         display: flex;
-        div{
-            margin: 12px;
-            width: 20px;
-            height: 20px;
+        .dot{
+            margin:0 12px;
+            width: 30px;
+            height: 30px;
             border-radius: 100%;
-            border: black solid 1px;
-            
-            //transform: translate(-50%, 0);
+            background-color: rgba(white, 0.3);
+
+            div{
+                width: 15px;
+                height: 15px;
+                background-color: white;
+                border-radius: 100%;
+                margin: 5px;
+            }            //transform: translate(-50%, 0);
+        }
+        .border{
+            border: white solid 3px;
         }
     }
 }

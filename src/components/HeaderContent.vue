@@ -2,8 +2,8 @@
     <div>
         <img :src="`/images/${content.image}`" alt="">
         <div class="header-text">
-            <h1>{{content.title}}</h1>
-            <p class="txt-base">{{content.text}}</p>
+            <h1 class="white">{{content.title}}</h1>
+            <p class="txt-base white">{{content.text}}</p>
         </div>
     </div>
 </template>
@@ -35,6 +35,12 @@ div{
         top: 50%;
         left: 50%;
         transform: translate(-50%,-50%);
+        h1{
+            font-size: 80px;
+        }
+        p{
+            font-size: 24px;
+        }
     }
 
 }
