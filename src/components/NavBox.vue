@@ -5,7 +5,8 @@
         </div>
         <ul>
             <li v-for="el in menuElementList"
-            :key="el">{{el}}</li>
+            :key="el"
+            class="txt-base">{{el}}</li>
         </ul>
         <div class="icons-box">
             <i class="fas fa-search"></i>

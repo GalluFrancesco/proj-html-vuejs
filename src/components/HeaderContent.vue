@@ -3,7 +3,7 @@
         <img :src="`/images/${content.image}`" alt="">
         <div class="header-text">
             <h1>{{content.title}}</h1>
-            <p>{{content.text}}</p>
+            <p class="txt-base">{{content.text}}</p>
         </div>
     </div>
 </template>
