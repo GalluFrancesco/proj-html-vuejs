@@ -61,17 +61,21 @@ header{
         bottom: 0;
         .dot{
             margin:0 12px;
-            width: 30px;
-            height: 30px;
+            width: 20px;
+            height: 20px;
             border-radius: 100%;
             background-color: rgba(white, 0.3);
+            position: relative;
 
             div{
-                width: 15px;
-                height: 15px;
+                width: 7px;
+                height: 7px;
                 background-color: white;
                 border-radius: 100%;
-                margin: 5px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
             }            //transform: translate(-50%, 0);
         }
         .border{
