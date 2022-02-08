@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <header-box />
+    <header-box :content="headerContent"/>
   </div>
 </template>
 
@@ -17,7 +17,7 @@ export default {
       headerContent:[
         {
           id:'HC01',
-          image:'../public/images/course-9-f-img.jpg',
+          image:'course-9-f-img.jpg',
           title:'Contemporary Ideas',
           text:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci officia voluptas consequuntur omnis! Numquam animi est necessitatibus accusantium cupiditate expedita voluptates tenetur, magnam ut, excepturi repudiandae, iusto eos qui provident?'
         }
@@ -28,5 +28,5 @@ export default {
 </script>
 
 <style lang="scss">
-
+  @import './style/main.scss'
 </style>
