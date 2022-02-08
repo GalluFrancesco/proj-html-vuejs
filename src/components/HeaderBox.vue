@@ -3,7 +3,7 @@
         <nav-box />
         <header-content
         :content="contentList[currentContent]"/>
-        <div class="register-button center-x white txt-base">Register Now</div>
+        <div class="register-button center-x white txt-base"><B>REGISTER NOW</B></div>
         <div class="select-box center-x">
             <div v-for="(el, index) in contentList" 
             :key="index"
@@ -52,8 +52,8 @@ header{
     .register-button{
         bottom: 200px;
         background-color: $main-blue;
-        font-size: 18px;
-        padding: 12px 24px;
+        font-size: 12px;
+        padding: 22px 40px;
     }
 
     .select-box{
