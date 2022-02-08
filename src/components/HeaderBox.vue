@@ -3,7 +3,7 @@
         <nav-box />
         <header-content
         :content="contentList[currentContent]"/>
-        <div class="register-button center-x">Register Now</div>
+        <div class="register-button center-x white txt-base">Register Now</div>
         <div class="select-box center-x">
             <div v-for="(el, index) in contentList" 
             :key="index"
@@ -43,12 +43,15 @@ export default {
 
 
 <style lang="scss" scoped>
+@import '../style/variables.scss';
+
 header{
     height: 100vh;
     width: 100%;
     position: relative;
     .register-button{
         bottom: 200px;
+        background-color: $main-blue;
     }
 
     .select-box{

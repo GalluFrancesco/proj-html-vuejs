@@ -33,10 +33,10 @@ div{
         bottom:300px;
         text-align: center;
         h1{
-            font-size: 80px;
+            font-size: 60px;
         }
         p{
-            font-size: 24px;
+            font-size: 18px;
         }
     }
 

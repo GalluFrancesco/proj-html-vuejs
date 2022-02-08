@@ -52,7 +52,7 @@ nav{
         display: flex;
         justify-content: space-between;
         color: white;
-        font-size: 24px;
+        font-size: 18px;
     }
 
     .icons-box{
@@ -60,7 +60,7 @@ nav{
         justify-content: space-between;
         width: 200px;
         color: white;
-        font-size: 24px;
+        font-size: 18px;
         padding-left: 24px;
 
         .fa-shopping-bag{
