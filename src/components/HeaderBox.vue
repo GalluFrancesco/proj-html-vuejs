@@ -48,7 +48,7 @@ header{
     width: 100%;
     position: relative;
     .register-button{
-        bottom: 200px
+        bottom: 200px;
     }
 
     .select-box{

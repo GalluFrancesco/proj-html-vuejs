@@ -30,6 +30,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '../style/variables.scss';
 nav{
     width: 100%;
     position: absolute;
@@ -71,7 +72,7 @@ nav{
                 width: 20px;
                 height: 20px;
                 border-radius: 100%;
-                background-color: blue;
+                background-color: $main-blue;
                 text-align: center;
                 line-height: 20px;
                 font-size: 15px;   
