@@ -25,6 +25,7 @@ div{
         object-fit:cover;
         position: absolute;
         z-index: 0;
+        filter:brightness(0.7)
     }
 
     .header-text{

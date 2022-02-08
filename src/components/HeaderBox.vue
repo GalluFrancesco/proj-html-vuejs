@@ -1,5 +1,6 @@
 <template>
     <header>
+        <nav-box />
         <header-content
         :content="contentList[currentContent]"/>
         <div class="register-button">Register Now</div>
@@ -13,9 +14,11 @@
 
 <script>
 import HeaderContent from './HeaderContent.vue'
+import NavBox from './NavBox.vue';
 export default {
     components: { 
-        HeaderContent 
+        HeaderContent,
+        NavBox 
     },
     props:{
         contentList:Array
