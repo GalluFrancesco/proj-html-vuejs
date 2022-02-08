@@ -1,5 +1,5 @@
 <template>
-    <nav>
+    <nav class="space-x">
         <div class="logo-box">
             <img src="/images/logo-light.png" alt="">
         </div>
@@ -38,7 +38,6 @@ nav{
     left:0;
     display: flex;
     align-items: center;
-    padding: $main-padding;
     .logo-box{
         width: 300px;
         padding-right: 24px;
