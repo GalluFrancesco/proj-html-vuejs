@@ -58,7 +58,7 @@ header{
 
     .select-box{
         display: flex;
-        bottom: 0;
+        bottom: 36px;
         .dot{
             margin:0 12px;
             width: 20px;

@@ -34,10 +34,11 @@ export default {
 nav{
     width: 100%;
     position: absolute;
-    top:0;
+    top:36px;
     left:0;
     display: flex;
     align-items: center;
+    padding: $main-padding;
     .logo-box{
         width: 300px;
         padding-right: 24px;
@@ -58,7 +59,7 @@ nav{
     .icons-box{
         display: flex;
         justify-content: space-between;
-        width: 200px;
+        width: 150px;
         color: white;
         font-size: 18px;
         padding-left: 24px;
