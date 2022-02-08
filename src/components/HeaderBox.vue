@@ -52,6 +52,8 @@ header{
     .register-button{
         bottom: 200px;
         background-color: $main-blue;
+        font-size: 18px;
+        padding: 12px 24px;
     }
 
     .select-box{
