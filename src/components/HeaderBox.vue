@@ -2,6 +2,7 @@
     <header>
         <header-content
         :content="contentList[currentContent]"/>
+        <div class="register-button">Register Now</div>
         <div class="select-box">
             <div v-for="(el, index) in contentList" 
             :key="index"
@@ -39,6 +40,15 @@ header{
     height: 100vh;
     width: 100%;
     position: relative;
+
+    .register-button{
+        z-index: 1;
+        position:absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        margin-top: 120px;
+    }
 
     .select-box{
         z-index: 1;
