@@ -79,7 +79,7 @@ header{
             }            //transform: translate(-50%, 0);
         }
         .border{
-            border: white solid 3px;
+            border: white solid 2px;
         }
     }
 }
