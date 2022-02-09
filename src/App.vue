@@ -45,4 +45,5 @@ export default {
 <style lang="scss">
   @import url('https://use.fontawesome.com/releases/v5.7.1/css/all.css');
   @import './style/main.scss';
+  @import './style/variables.scss';
 </style>

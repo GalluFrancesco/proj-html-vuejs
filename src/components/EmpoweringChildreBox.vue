@@ -1,5 +1,5 @@
 <template>
-    <div class="row space-y space-x">
+    <div class="row principal-container space-y">
         <div class="box-img">
             <img src="/images/h5-img-2.jpg" alt="">
         </div>

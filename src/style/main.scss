@@ -9,6 +9,11 @@ ul{
     list-style: none;
 }
 
+.principal-container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
 .space-y{
     padding-top: $vertical-space;
     padding-bottom: $vertical-space;
@@ -36,4 +41,10 @@ ul{
     position: absolute;
     left: 50%;
     transform:translate(-50%,0) ;
+}
+
+hr{
+    height: 1px;
+    background-color: #ccc;
+    border: none;
 }

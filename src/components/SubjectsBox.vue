@@ -1,5 +1,5 @@
 <template>
-    <div class="raw space-y space-x">
+    <div class="raw space-y principal-container">
         <div class="subject-card">
             <div class="box-img">
                 <img src="/images/h5-custom-icon-1.png" alt="">
@@ -59,8 +59,8 @@ export default {
 
 <style lang="scss" scoped>
 @import '../style/variables.scss';
+
     .raw{
-        width: 100%;
         display: flex;
         justify-content: space-between;
 
