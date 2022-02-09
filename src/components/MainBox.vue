@@ -4,6 +4,7 @@
         <in-home-tutoring-box />
         <empowering-childre-box />
         <jumbotron-box />
+        <learning-box />
     </main>
 </template>
 
@@ -12,13 +13,15 @@ import EmpoweringChildreBox from './EmpoweringChildreBox.vue'
 import InHomeTutoringBox from './InHomeTutoringBox.vue'
 import SubjectsBox from './SubjectsBox.vue'
 import JumbotronBox from './JumbotronBox.vue'
+import LearningBox from './LearningBox.vue'
 
 export default {
     components: { 
         SubjectsBox, 
         InHomeTutoringBox, 
         EmpoweringChildreBox,
-        JumbotronBox 
+        JumbotronBox,
+        LearningBox 
     },
     
 }
