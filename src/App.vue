@@ -2,18 +2,21 @@
   <div id="app">
     <header-box :contentList="headerContent"/>
     <main-box />
+    <main-image-bg />
   </div>
 </template>
 
 <script>
 import HeaderBox from './components/HeaderBox.vue'
 import MainBox from './components/MainBox.vue'
+import MainImageBg from './components/MainImageBg.vue'
 
 export default {
   name: 'App',
   components: {
     HeaderBox,
-    MainBox
+    MainBox,
+    MainImageBg
   },
   data(){
     return{
