@@ -5,6 +5,7 @@
         <empowering-childre-box />
         <jumbotron-box />
         <learning-box />
+        <hr>
     </main>
 </template>
 

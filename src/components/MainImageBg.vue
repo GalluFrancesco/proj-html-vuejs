@@ -1,10 +1,15 @@
 <template>
     <main>
+        <online-courses />
     </main> 
 </template>
 
 <script>
+import OnlineCourses from './OnlineCourses.vue'
 export default {
+    components:{
+        OnlineCourses
+    }
     
 }
 </script>
