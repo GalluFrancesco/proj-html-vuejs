@@ -5,6 +5,7 @@
     <main-image-bg />
     <partners-box />
     <footer-box :supportList="supportList"/>
+    <return-up />
   </div>
 </template>
 
@@ -14,6 +15,7 @@ import MainBox from './components/MainBox.vue'
 import MainImageBg from './components/MainImageBg.vue'
 import PartnersBox from './components/PartnersBox.vue'
 import FooterBox from './components/FooterBox.vue'
+import ReturnUp from './components/ReturnUp.vue'
 
 export default {
   name: 'App',
@@ -22,7 +24,8 @@ export default {
     MainBox,
     MainImageBg,
     PartnersBox,
-    FooterBox
+    FooterBox,
+    ReturnUp
   },
   data(){
     return{
