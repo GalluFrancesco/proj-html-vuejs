@@ -19,7 +19,7 @@
                     </li>
                 </ul>
         
-                <ul class="col-1">
+                <ul class="col-2">
                     <li><h4>Popular Courses</h4></li>
                     <li class="dark-grey">
                         <div class="course">Business English</div>
@@ -42,7 +42,7 @@
                     class="dark-grey">{{el}}</li>
                 </ul>
 
-                <ul class="col-3">
+                <ul class="col-4">
                     <li><h4>Flexible Learning</h4></li>
                     <li class="img">
                         <img src="/images/footer-img-1.png" alt="">
@@ -100,6 +100,7 @@ footer{
                     .light-grey{
                         color: lightgray;
                     }
+
                 }
 
                 .course{
@@ -111,6 +112,19 @@ footer{
                     width: 100%;
                     img{
                         width: 100%;
+                    }
+                }
+            }
+
+            .col-2,
+            .col-3{
+                li{
+                    &:hover .course,
+                    &:hover{
+                        color: #40C4FF;
+                    }
+                    &:hover:first-child{
+                        color: white;
                     }
                 }
             }
