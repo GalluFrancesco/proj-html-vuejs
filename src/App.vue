@@ -4,6 +4,7 @@
     <main-box />
     <main-image-bg />
     <partners-box />
+    <footer-box :supportList="supportList"/>
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import HeaderBox from './components/HeaderBox.vue'
 import MainBox from './components/MainBox.vue'
 import MainImageBg from './components/MainImageBg.vue'
 import PartnersBox from './components/PartnersBox.vue'
+import FooterBox from './components/FooterBox.vue'
 
 export default {
   name: 'App',
@@ -19,10 +21,12 @@ export default {
     HeaderBox,
     MainBox,
     MainImageBg,
-    PartnersBox
+    PartnersBox,
+    FooterBox
   },
   data(){
     return{
+      supportList:['User Dashboard', 'Contact Us', 'FAQ', 'Events'],
       headerContent:[
         {
           id:'HC01',
