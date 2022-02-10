@@ -20,7 +20,7 @@ export default {
 <style lang="scss" scoped>
 main{
     background: url('/images/page-background-img.png') repeat-y;
-    background-size: cover;
+    background-position: 0% 55%;
 }
 
 </style>
