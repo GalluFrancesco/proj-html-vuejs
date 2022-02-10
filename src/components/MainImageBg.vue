@@ -1,14 +1,17 @@
 <template>
     <main>
         <online-courses />
+        <pricing-box />
     </main> 
 </template>
 
 <script>
 import OnlineCourses from './OnlineCourses.vue'
+import PricingBox from './PricingBox.vue'
 export default {
     components:{
-        OnlineCourses
+        OnlineCourses,
+        PricingBox
     }
     
 }
